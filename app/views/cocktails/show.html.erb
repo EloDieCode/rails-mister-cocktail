@@ -4,7 +4,7 @@
       <% @cocktail.doses.each do |dose| %>
       <p><%= dose.description %></p>
         <p><%= dose.ingredient.name %></p>
-        <%= link_to "👨‍🚒🗑", dose_path(dose), method: :delete, data: { confirm: "Are your sure?"} %>
+        <%= link_to "🗑", dose_path(dose), method: :delete, data: { confirm: "Are your sure?"} %>
       <% end %>
     </div>
 
