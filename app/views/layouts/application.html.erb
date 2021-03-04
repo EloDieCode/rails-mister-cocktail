@@ -13,8 +13,8 @@
 
   <body>
     <nav class="navbar">
-      <%= link_to "Menu cocktails", cocktails_path %>
-      <%= link_to "Créer un cocktail", new_cocktail_path %>
+      <%= link_to "Menu cocktails", cocktails_path, class: "btn btn-ghost" %>
+      <%= link_to "Créer un cocktail", new_cocktail_path, class: "btn btn-ghost" %>
     </nav>
     <%= yield %>
   </body>

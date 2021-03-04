@@ -9,5 +9,21 @@
 @import "font-awesome";
 
 // Your CSS partials
-@import "components/index";
 @import "pages/index";
+@import "pages/home";
+@import "pages/show";
+@import "pages/new";
+
+@import "components/navbar";
+
+.navbar {
+  background-image: asset-url('grapefruit-cocktail.jpg');
+  background-size: cover;
+  height: 150px;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

@@ -1,15 +1,7 @@
-// Import page-specific CSS files here.
-@import "home";
-@import "components/alert";
-@import "components/avatar";
-
 .container {
   padding: 24px;
-  justify-items: left;
-  align-items: center;
   h2 {
     color: grey;
-    font-size: 24px;
   }
   a {
     text-decoration: none;
@@ -17,14 +9,17 @@
   }
 }
 
-.card {
+.card-category {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
   background-color: white;
   padding: 24px, 24px;
-  width: 50%;
+  width: 80%;
   justify-items: left;
   align-items: center;
   p {
-    font-size: 16px;
+    font-size: 24px;
     color: grey;
     font-weight: bold;
     padding: 24px 24px;
