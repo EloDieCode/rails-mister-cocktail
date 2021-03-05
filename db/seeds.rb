@@ -18,6 +18,9 @@ Ingredient.create(name: "tequila")
 Ingredient.create(name: "rhum")
 Ingredient.create(name: "orange juice")
 Ingredient.create(name: "tomato juice")
+Ingredient.create(name: "baileys")
+Ingredient.create(name: "gin")
+Ingredient.create(name: "champagne")
 
 puts "#{Ingredient.count}"
 
