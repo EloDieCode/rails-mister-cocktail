@@ -1,10 +1,11 @@
 <div class="container">
   <div class="row">
     <div class="col-8">
-<%= simple_form_for [@cocktail] do |f| %>
-  <%= f.input :name %>
-  <%= f.button :submit%>
-<% end %>
+      <%= simple_form_for [@cocktail] do |f| %>
+        <%= f.input :name %>
+        <%= f.input :photo, as: :file %>
+        <%= f.button :submit%>
+      <% end %>
     </div>
   </div>
 </div>

@@ -5,6 +5,8 @@ ruby '2.6.6'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'cloudinary', '~> 1.16.0'
+
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 
