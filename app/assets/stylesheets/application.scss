@@ -15,6 +15,12 @@
 @import "pages/new";
 
 @import "components/navbar";
+@import "components/alert";
+@import "components/avatar";
+@import "components/button";
+@import "components/card";
+@import "components/container";
+@import "components/banner";
 
 .navbar {
   background-image: asset-url('grapefruit-cocktail.jpg');

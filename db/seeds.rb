@@ -24,6 +24,7 @@ Ingredient.create(name: "champagne")
 
 puts "#{Ingredient.count}"
 
+Cocktail.delete_all
 # puts "create cocktails"
 
 # Ingredient.create(name: "lemon")
